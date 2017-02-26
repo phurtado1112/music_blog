@@ -7,14 +7,19 @@ and open the template in the editor.
     Created on : 02-18-2017, 03:33:11 PM
     Author     : PabloAntonio
 */
+
+body {
+    background-color: #66512c;
+}
+
 header {
     height: 30%;
-    background-color: aqua;
+    background-color: #255625;
 }
 
 .col1 {
     padding: 1%;
-    background-color: #ff9900;
+    background-color: #255625;
 }
 
 .col2 {
@@ -35,9 +40,8 @@ li {
 }
 
 .bot {
-    background-color: aqua;
+    background-color: #255625;
     color: #000;
-    width: 175px;
     font-weight: bold;
 }
 
@@ -50,10 +54,12 @@ li {
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    
+    margin-top: 15px;
 }
 
 .col3 {
+    color: white;
+    background-color: #c0a16b;
     padding: 3%;
 }
 
@@ -62,14 +68,12 @@ li {
 }
 
 .foto1 {
-    height: 200px; 
-    width: 150px;
+    height: 170px;
     margin-top: 10%;
 }
 
 .foto2 {
-    height: 200px; 
-    width: 150px;
+    height: 150px;
     margin-top: 30%;
 }
 
@@ -77,3 +81,14 @@ nav.navbar {
     background-color: #999;
 }
 
+coment {
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+article {
+    margin-bottom: 25px;
+}
